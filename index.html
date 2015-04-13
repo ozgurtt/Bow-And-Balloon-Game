@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>JQuery game</title>
+   	<link rel="stylesheet" href="style/game_style.css" />
+    <script src="lib/jquery-1.11.0.min.js"> </script>
+    <script src="lib/game.js"></script>
+</head>
+<body>
+	<div id="userOptions">
+		<h1>Welcome <i id="uname"> </i></h1>
+	<div id="sOpt">
+		Balloon Speed: <b><label id="balSpeed" type="text" >1</label></b> 
+		<input type="range"min="1" max="5" step="1" id="balS" value="1">
+		
+		Arrow Speed: <b><label id="arrSpeed" type="text" >1</label></b> 
+		<input type="range" min="1" max="5" step="1	" id="arrS" value="1">
+		
+		Score: <span id="point" style="font-size: 20px;color: brown;">0</span>
+	</div>
+	</div>
+<div id="playArea">
+	<div id="bow" class="bowArrow"><img src="images/bow_with_arrow.png" /></div>
+	<div id="arrow" class="bowArrow"><img src="images/images.jpg" /></div>
+	<div id="baloon" class="bowArrow"><img src="images/baloon.jpg" /></div>
+</div>
+</body>
+</html>

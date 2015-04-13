@@ -1,0 +1,48 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+#playArea {
+	border: 1px solid black;
+	position: relative;
+	margin:5px;
+	overflow: hidden;
+	
+}
+#userOptions
+{
+	height:50px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	border: 1px solid green	;
+	padding:5px;
+	
+}
+#sOpt
+{
+	float: right;
+}
+h1
+{
+	font-size: 20px;
+	float: left;
+}
+#bow {
+	top:100px;
+}
+#arrow {
+	z-index: 200;
+	left:100px;
+	display: inline-block;
+}
+#baloon {
+
+}
+.bowArrow {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+}
+.bowArrow img {
+	width: 100%;
+}
